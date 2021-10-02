@@ -1,0 +1,249 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      {#1} & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\huge \scshape \textbf{Ken(Xingyu) Ming}} \\ \vspace{2pt}
+    Unit 607, 210 South Fourth Street, Champaign, Illinois 61820 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 217-200-1475 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  xy.ming981222@gmail.com} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/xyming}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/mxy981222}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Illinois Urbana-Champaign}{August 2021 -- present}
+      {Master of Electrical and Computer Engineering}{Urbana, IL}
+    \resumeSubheading
+      {Shanghai Jiao Tong University}{September 2017 -- August 2021}
+      {Bachelor of Engineering in Electrical and Computer Engineering, Minor in Entrepreneurship}{Shanghai, China}
+  \resumeSubHeadingListEnd
+  \small{\textbf{Relevant Coursework: }Data Structures and Algorithms, Digital Circuit, Computer Organization, Computer Networks, Machine Learning, Cryptography, AI techniques, Database System, Distributed System, Web Programming}\\
+    \small{\textbf{Awards: }}
+    \vspace{2pt}
+            \begin{multicols}{2}
+            \begin{itemize}[itemsep=-4pt, parsep=5pt]
+                \resumeItem{Excellent Graduates of SJTU (August 2021)}
+                \resumeItem{Undergraduate Excellent Scholarship (November 2020)}
+                \resumeItem{Merit Student, SJTU (October 2020)}
+                \resumeItem{Second Prize, CUMCM (October 2018)}
+            \end{itemize}
+        \end{multicols}
+ \vspace{-4pt}
+%------RELEVANT COURSEWORK-------
+%\section{Relevant Coursework(* stands for in progress)}
+%\resumeSubHeadingListStart
+  %      \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Shanghai Gengyuan Education Technology Co.}{March 2021 -- May 2021}
+      {Software Engineer Intern}{Shanghai, China}
+      \vspace{0.3pt}
+      \resumeItemListStart
+        \resumeItem{Designed and programmed a smart car which can change its color according to its surroundings based on \underline{Arduino}}
+        \resumeItem{Completed the code for calibration and color detection for the color sensors and assembled the car}
+        \resumeItem{Studied the code of JPL's open-source Mars-Rover on \underline{Github} and assembled the Mars-Rover}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Pegasus Brigade}{January 2019 -- February 2019}
+      {Investment Assistant}{Shanghai, China}
+      \vspace{0.3pt}
+      \resumeItemListStart
+        \resumeItem{Collected income, click-through rate and volume of customer data, main events held according to the
+company’s official homepage and social media platforms as well as reports, then analyzed the data with \underline{Matlab} by applying calculation, regression and visualization}
+        \resumeItem{Evaluated the marketing strategy of companies with similar operation mode based on the previous analysis}
+        \resumeItem{Wrote the final reports about the marketing strategies which was used as reference for investment}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-13pt}
+
+%-----------PROJECTS-----------
+\section{Research and Projects}
+    %\vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+          {Acemap Project: Paper-X Ray}{March 2019 -- March 2020}
+          {Group Member}{Intelligent Internet of Things Lab, Shanghai Jiao Tong University}
+          \vspace{0.3pt}
+          \resumeItemListStart
+            \resumeItem{Used \underline{Python} to download thousands of papers from top-tier conferences and updated the database with \underline{MySQL}}
+            \resumeItem{Collected the number of tables, figures and formulas on each page and saved the data into a .json file with Python as the data set for \underline{LightGBM}}
+            \resumeItem{Counted the number of pages of the main content of each paper, cut the paper into 6 pages, and combined the pages
+into a figure as input with Python as the standardized data set for \underline{Tensorflow}}
+            \resumeItem{Exploited Tensorflow and LightGBM as the machine learning models along with the previous data to train the model and
+test its performance}
+            \resumeItem{Generalized the model to different conferences in different years and the final accuracy of our model was around 92\%}
+          \resumeItemListEnd
+      \resumeSubheading
+          {Implementation of ARQ protocol in container networks}{May 2021 -- August 2021}
+          {Group Leader}{Computer Networks, Course Project}
+          \vspace{0.3pt}
+          \resumeItemListStart
+            \resumeItem{Configured and set up a overlay network based on \underline{Docker}, \underline{etcd} and \underline{flannel}}
+            \resumeItem{Configured a server and a client for Minecraft, gRPC-web, and IPTV on two Virtual Machines with \underline{Linux} system}
+            \resumeItem{Implemented the Stop-and-Wait ARQ protocol in \underline{C/C++} with \underline{socket} in \underline{Linux} and tested the protocol by sending a txt file from server to client with 10\% loss}
+          \resumeItemListEnd 
+          \resumeSubheading
+          {Stock Price Forecasting}{October 2020}
+          {Personal Project}{AI technique, Course Project}
+          \vspace{0.3pt}
+          \resumeItemListStart
+            \resumeItem{Modified the data by discretization and dividing into current and past sets}
+            \resumeItem{Implemented the dynamic Bayes network as a 1-order Markov chain with \underline{Python} and based on \underline{PyAgrum}}
+            \resumeItem{Generalized the model into k-order Markov chain, ran the parameter and structure learning process and inferenced on the test data}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, R, C/C++, HTML/CSS, JavaScript, SQL, Assembly Language, Verilog HDL} \\
+     \textbf{Tools}{: Pycharm, JupyterNotebook, VS, Xcode, Matlab, Codepen, Vivado, Tensorflow, Gurobi, PyAgrum, Arduino} \\
+     \textbf{Technologies/Frameworks}{: Linux, MacOS, Windows, GitHub} \\
+    }}
+ \end{itemize}
+ \vspace{-20pt}
+
+
+%-----------INVOLVEMENT---------------
+
+
+
+\end{document}
